@@ -227,7 +227,7 @@ main {
     min-width: 320px;
     height: auto; /*el contenido de este contenedor determina la altura*/
     padding: 20px 10px;
-    background: var(--warm-black);
+    background: var(--black);
 }
 .product-detail--batata-logo {
     position: absolute;
@@ -254,6 +254,51 @@ main {
 }
 .product-detail--title p {
     margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.product-detail--card {
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: var(--warm-black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+.product-detail--card .icon-card {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clock {
+    background-image: url("./assets/icons/reloj.svg");
+}
+.eye {
+    background-image: url("./assets/icons/ojo.svg");
+}
+.money {
+    background-image: url("./assets/icons/signo_dolar.svg");
+}
+.check {
+    background-image: url("./assets/icons/check.svg");
+}
+.product--card-title {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product--card-body {
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
