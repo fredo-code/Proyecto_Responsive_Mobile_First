@@ -221,3 +221,41 @@ main {
     font-weight: 300;
     color: var(--warm-black);
 }
+.main-product-detail {
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    height: auto; /*el contenido de este contenedor determina la altura*/
+    padding: 20px 10px;
+    background: var(--warm-black);
+}
+.product-detail--batata-logo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px; /* para sacarlo un poco del contenedor*/
+    left: calc(50% - 20px); /* para dejar el ícono justo al centro descontando su width*/
+    background-image: url(./assets/icons/patata.svg);
+}
+.product-detail--title {
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+.product-detail--title h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail--title p {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
