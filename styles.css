@@ -414,6 +414,6 @@ main {
     display: inline-block;
     width: 20px;
     height: 20px;
-    background-image: url("/assets/icons/arrow-right1.svg");
+    background-image: url("/assets/icons/arrow-right.svg");
     vertical-align: text-bottom; /*propiedad para alinear el texto con el ícono*/
 }
