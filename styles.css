@@ -374,6 +374,32 @@ main {
     border-radius: 8px;
     color: var(--just-white);
 }
+.monthly {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: var(--secondary-blue);
+    border-radius: 8px;
+    color: var(--just-white);
+}
+.weekly {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: var(--warm-black);
+    border-radius: 8px;
+    color: var(--just-white);
+}
 .plan-card--title {
     padding-top: 30px;
     font-size: 1.4rem;
