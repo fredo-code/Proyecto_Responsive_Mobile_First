@@ -382,7 +382,7 @@ main {
 }
 .plans-container--slider {
     display: flex;
-    height: 316px;
+    min-height: 360px;
     overflow-x: scroll; /*propiedades de css para poder hacer el scroll en tarjetas*/
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
