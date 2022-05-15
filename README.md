@@ -3,7 +3,7 @@
 En este proyecto se realiza una landing page de una empresa de criptomonedas, utilizando la maquetación: Mobile First
 
 
-## 🤖 Tecnologías usadas en el proyecto
+## 🛰️ Tecnologías usadas en el proyecto
 * HTML
 * CSS
 * Metodología: BEM
